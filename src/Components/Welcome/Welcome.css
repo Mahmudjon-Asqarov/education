@@ -1,0 +1,60 @@
+.welcome {
+    position: relative;
+    height: 600px;
+    width: 100%;
+    color: var(--background-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.8rem;
+    justify-content: center;
+    text-align: center;
+    background-color: var(h-text-color-white);
+}
+
+.welcome_title {
+    margin: 1px;
+}
+
+.welcome_paragraph {
+    width: 60%;
+    margin: 25px;
+    font-size: 1.1rem;
+}
+
+.wrapper_skilled {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.welcome_skilled {
+    padding: 12px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    margin: 12px;
+    border-radius: 50%;
+    transition: var(--transitions);
+}
+
+.avatar_img {
+    width: 80%;
+    height: 50%;
+}
+
+.welcome_skilled:hover .avatar {
+    background-color: var(--h-background-orange-color);
+}
